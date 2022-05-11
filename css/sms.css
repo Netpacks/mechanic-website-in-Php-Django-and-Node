@@ -1,0 +1,419 @@
+
+/* backgound-color */
+.mr_res{
+
+  margin-right: 0.5rem;
+
+}
+.log_bg{
+background-image: url(../img/bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+
+/* side scroll */
+.boxscroll {
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+.boxscroll::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+.boxscroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.boxscroll::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(200deg, rgb(223, 52, 169),rgb(104, 32, 63));
+  border-radius:100px;
+}
+
+/* header */
+
+
+.header{
+
+  padding: 1rem!important;
+  font-weight: 900; 
+  background-color: transparent;
+  height: 10vh;
+
+
+}
+
+/* divs */
+.d-dural-flex-child1{
+  width: 30%;
+  background-image: white;
+}
+
+
+.d-dural-flex-child2{
+  width: 70%;
+  background-image: white;
+}
+
+.d-dural-flex{
+  border: 5px solid purple;
+  display: flex;
+
+}
+
+
+/* header text */
+.header_text{
+  font-weight: bolder; color: white;
+  font-family: gabriola;
+  color: white;
+}
+
+/* hide document */
+.none{
+  display: none;
+}
+
+.profile_image{width: 100px;
+   height: 100px; 
+   cursor: pointer;
+    border-radius: 100px;
+     position: absolute;
+      top: -20px;
+       right: -20px;
+       z-index: 10;
+      }
+
+
+
+      .profile_image_h{width: 35px;
+        height:35px; 
+        border-radius: 50px;
+        cursor: pointer;
+        
+           }
+     
+   .smscontainer{
+
+
+    display: flex;
+   }
+
+
+.user{
+
+  height: 90vh;
+ margin-right: 0.5rem;
+ display: block;
+}
+
+
+
+.smsbox{
+
+  margin-right: 0.5rem;
+  height: 77vh;
+
+}
+
+
+.peruser{
+
+
+  height: 90vh;
+
+}
+
+.editor{
+  border-top: 1px solid rgb(202, 194, 194);
+outline: none;
+display: flex;
+z-index: 10;
+background-color: #ffffff;
+}
+
+/* side scroll */
+.res_scroll {
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+.res_scroll::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+.res_scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.res_scroll::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(200deg, rgb(160, 147, 156),rgb(153, 101, 124));
+  border-radius:100px;
+}
+
+.users_image{
+  width: 30px;
+  height:30px; 
+  border-radius: 50px;
+  cursor: pointer;
+  border-right:5px solid rgb(0, 0, 0);
+
+}
+.active{
+
+  border-right:5px solid rgb(10, 107, 21) !important;
+
+}
+.res_none{
+  display: block;
+}
+.res_none_{
+  display: none;
+}
+.sms_u{
+position: relative;
+min-height: 50px;
+max-width: 380px;
+background:#ffffff;
+border-top-right-radius:100px;
+border-bottom-right-radius:100px;
+border-right: 5px solid gray;
+}
+
+.sms_u::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+
+
+.sms_me{
+  position: relative;
+  min-height: 50px;
+  max-width: 360px;
+  background:#ffffff;
+  border-top-left-radius:100px;
+  border-bottom-left-radius:100px;
+  border-left: 5px solid gray;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  }
+  
+  .sms_me::after {    
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffffff;
+  }
+  
+
+.smsimg{
+
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  shape-outside: circle(100%);
+}
+
+
+.status_box{
+    position: relative;
+
+  height:85vh ;
+}
+
+.status_src{
+
+  height:82vh;
+}
+
+.status_box_text {
+  flex-direction: column;
+  right: 0;
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 5vw; /* pat width */
+height: inherit;
+  padding: 20px; /* Some padding */
+}
+.cursor{
+
+  cursor: pointer;
+}
+/*=========================================
+    SMart Phone Device
+===========================================*/
+
+@media (min-width: 100px) and (max-width: 991px){
+  .mr_res{
+
+    margin-right: 0.0rem;
+  
+  }
+.header_text{
+  color: rgb(247, 7, 171);
+}
+
+
+.header{
+  height: 8vh;
+  border-top: 2px solid rgb(214, 211, 211);
+  font-weight: 900; 
+  background-color: transparent;
+bottom: 0%;
+left: 0%;
+padding: 0.4rem !important;
+width: 100%;
+
+}
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100% !important;
+      padding: 0 !important; 
+      margin-right: auto !important; 
+      margin-left: auto !important;
+  }
+  
+  
+    .d-dural-flex-child2{
+      background-color: white;
+      width: 100%;
+    }
+    
+    .d-dural-flex-child1{
+      background-color: white;
+      width: 100%;
+    }
+   
+  .d-dural-flex{
+    border: 5px solid purple;
+    flex-direction: column-reverse;
+    }
+    .d-dural-flex > div{
+      width: 100%;
+    }
+  
+    
+.smscontainer{
+
+  display: block;
+}
+
+.user{
+
+  margin-bottom: 0.5rem;
+  height: 10vh;
+  margin-right: 0.0rem;
+display: flex;
+
+}
+
+
+
+.smsbox{
+  height: 80vh;
+  margin-right: 0.0rem;
+display: block;
+
+}
+
+
+.peruser{
+
+display: none !important;
+
+
+}
+  
+
+
+.editor{
+  position: fixed;
+  bottom: 0;
+outline: none;
+left: 0;
+z-index: 10;
+
+}
+
+
+
+.res_scroll {
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+.res_scroll::-webkit-scrollbar {
+  height: 0.3rem;
+}
+
+.res_scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.res_scroll::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(200deg, rgb(160, 147, 156),rgb(153, 101, 124));
+  border-radius:100px;
+}
+
+
+.users_image{
+  width: 30px;
+  height:30px; 
+  border-radius: 50px;
+  cursor: pointer;
+border-right:5px solid rgb(0, 0, 0);
+}
+
+.res_none{
+  display: none;
+}
+
+
+
+.res_none_{
+  display: block;
+}
+
+
+.status_box{
+    position: relative;
+
+  height:92vh ;
+}
+
+.status_src{
+
+  height:90vh;
+}
+  }
+  
+  
+
+
+
+  
