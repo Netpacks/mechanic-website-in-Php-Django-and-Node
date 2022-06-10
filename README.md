@@ -1,5 +1,5 @@
 # mechanic-website-in-Php-Django-and-Node
-Mecho website is a project that allow company to get works in any where around there .
+Mecho website is a project that make company target customer in any where around there country.
 Create by Netspacks
 Instagram @ netpacks.page
 it made work easy without stress and enable user to repaire ther cars any time any where. 
